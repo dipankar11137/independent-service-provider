@@ -38,19 +38,21 @@ const Register = () => {
     }
     return (
         <div className='container register-from'>
+            <h1 className='text-center fw-bold my-4 text-primary'>TUTOR</h1>
             <div className='shadow-lg mt-4 p-3'>
-                <h2 className='text-center'>Please Register</h2>
+                <h2 className='text-center fw-bold mb-4 '>Please Register</h2>
                 <form onSubmit={handleRegister}>
                     <input type="text" name="name" id="" placeholder='Your name' />
 
                     <input type="email" name="email" id="" placeholder='Email Address' required />
 
                     <input type="password" name="password" id="" placeholder='Password' required />
-                    <input className='mt-3 ' type="checkbox" name="terms" id="terms" />
+                    <input onClick={() => setAgree(!agree)} className='mt-3 ' type="checkbox" name="terms" id="terms" />
 
-                    <label htmlFor="terms">Accept Terms and Condition</label>
+                    <label className={` ps-2 ${agree ? 'text-primary' : 'text-danger'}`}
+                        htmlFor="terms">Accept Terms and Condition</label>
                     <input
-
+                        disabled={!agree}
                         className='btn btn-primary w-50 mx-auto'
                         type="submit"
                         value="Register" />
