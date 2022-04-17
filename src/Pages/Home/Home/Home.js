@@ -1,10 +1,13 @@
 import React from 'react';
 import Footer from '../../Shared/Footer/Footer';
+import Banner from '../Banner/Banner';
+import Subjects from '../Subjects/Subjects';
 
 const Home = () => {
     return (
         <div>
-            <h2>This is Home</h2>
+            <Banner></Banner>
+            <Subjects></Subjects>
             <Footer></Footer>
         </div>
     );
