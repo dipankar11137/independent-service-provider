@@ -4,6 +4,7 @@ import { useCreateUserWithEmailAndPassword, useUpdateProfile } from 'react-fireb
 import auth from '../../../firebase.init';
 import './Registor.css'
 import Loading from '../../Shared/Loading/Loading';
+import SocialLogin from '../SocialLogin/SocialLogin';
 
 const Register = () => {
     const [agree, setAgree] = useState(false);
@@ -59,7 +60,7 @@ const Register = () => {
                 </form>
                 <p>Already have an account? <span onClick={navigatorLogin} className='text-primary mt-2' type="submit" >Please Login</span></p>
             </div>
-
+            <SocialLogin></SocialLogin>
         </div>
     );
 };

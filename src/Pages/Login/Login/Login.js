@@ -6,6 +6,7 @@ import { useLocation, useNavigate } from 'react-router-dom';
 import { toast, ToastContainer } from 'react-toastify';
 import auth from '../../../firebase.init';
 import Loading from '../../Shared/Loading/Loading';
+import SocialLogin from '../SocialLogin/SocialLogin';
 
 const Login = () => {
 
@@ -75,7 +76,7 @@ const Login = () => {
                         <Form.Control ref={passwordRef} type="password" placeholder="Password" required />
                     </Form.Group>
 
-                    <Button variant="primary w-50 d-block mx-auto mb-2" type="submit">
+                    <Button variant="primary w-50 d-block mx-auto mb-2 fw-bold fs-5" type="submit">
                         Login
                     </Button>
                 </Form>
@@ -85,6 +86,7 @@ const Login = () => {
 
                 <ToastContainer></ToastContainer>
             </div>
+            <SocialLogin></SocialLogin>
         </div>
     );
 };
