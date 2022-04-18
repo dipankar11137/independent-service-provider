@@ -1,6 +1,6 @@
 # Getting Started with Create React App
 
-## live side link : 
+## live side link : https://sixth-edition-298003.web.app/
 
  <details>
            <summary>Point 1</summary>
