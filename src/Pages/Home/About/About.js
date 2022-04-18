@@ -7,7 +7,7 @@ const About = () => {
                 <div className='card p-2'>
                     <img className='' src="https://i.ibb.co/HxgkZyM/dipu.png" alt="" />
                     <h1>DIPANKAR HALDER</h1>
-                    <p>My feature goal is a good developer.It's my dream. At any cost I finish my dream</p>
+                    <p>My feature goal is a good developer.It's my dream. At any cost I finish my dream .</p>
 
                 </div>
 

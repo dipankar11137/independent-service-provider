@@ -12,10 +12,10 @@ const Subjects = () => {
     }, [])
 
     return (
-        <div id='services' className='container mt-5'>
+        <div id='subject' className='container mt-5'>
             <div className='row'>
                 <h1 className='text-center'>Our Subjects </h1>
-                <div className='services-container'>
+                <div className='subject-container'>
                     {
                         subjects.map(subject => <Subject key={subject.id} subject={subject}></Subject>)
                     }

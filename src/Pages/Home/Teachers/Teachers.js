@@ -11,6 +11,7 @@ const Teachers = () => {
     }, [])
     return (
         <div className='container mt-5'>
+            <h1 className='text-center fw-bold text-primary'>TEACHERS</h1>
             <div className=' row'>
 
                 {
