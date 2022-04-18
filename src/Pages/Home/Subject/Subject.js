@@ -5,7 +5,7 @@ const Subject = ({ subject }) => {
     const { id, name, subjectName, imgSubject } = subject;
     const navigate = useNavigate()
     const navigateToTeacherDetail = id => {
-        navigate(`/teachers/${id}`);
+        navigate('/teachers');
     }
     return (
         <div className='shadow p-2'>

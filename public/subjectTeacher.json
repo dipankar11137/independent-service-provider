@@ -5,58 +5,58 @@
         "subjectName": "CSE",
         "salary": "8000",
         "Phone": "01700227574",
-        "description": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa.",
-        "imgSubject": "https://i.ibb.co/dGDkr4v/1.jpg",
-        "imgTeacher": "https://i.ibb.co/tY8dmnP/2.jpg"
+        "description": "Some qualities of a good teacher include skills in communication, listening, collaboration, adaptability, empathy and patience. Other characteristics of effective teaching include an engaging classroom presence, value in real-world learning, exchange of best practices and a lifelong love of learning.",
+        "imgSubject": "https://i.ibb.co/WHL27hN/istockphoto-1075599562-612x612.jpg",
+        "imgTeacher": "https://i.ibb.co/HxgkZyM/dipu.png"
     },
     {
         "id": 2,
-        "name": "Dipankar Halder2",
-        "subjectName": "CSE",
-        "salary": "8000",
-        "Phone": "01700227574",
-        "description": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa.",
-        "imgSubject": "https://i.ibb.co/dGDkr4v/1.jpg",
-        "imgTeacher": "https://i.ibb.co/tY8dmnP/2.jpg"
+        "name": "Messi",
+        "subjectName": "Math",
+        "salary": "8500",
+        "Phone": "01700227573",
+        "description": "Some qualities of a good teacher include skills in communication, listening, collaboration, adaptability, empathy and patience. Other characteristics of effective teaching include an engaging classroom presence, value in real-world learning, exchange of best practices and a lifelong love of learning.",
+        "imgSubject": "https://i.ibb.co/PWzbsqx/math.jpg",
+        "imgTeacher": "https://i.ibb.co/gv15LxJ/DMch98-IXk-AAAVou.jpg"
     },
     {
         "id": 3,
-        "name": "Dipankar Halder3",
-        "subjectName": "CSE",
+        "name": "Ronaldo",
+        "subjectName": "Physics",
         "salary": "8000",
         "Phone": "01700227574",
-        "description": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa.",
-        "imgSubject": "https://i.ibb.co/dGDkr4v/1.jpg",
-        "imgTeacher": "https://i.ibb.co/tY8dmnP/2.jpg"
+        "description": "Some qualities of a good teacher include skills in communication, listening, collaboration, adaptability, empathy and patience. Other characteristics of effective teaching include an engaging classroom presence, value in real-world learning, exchange of best practices and a lifelong love of learning.",
+        "imgSubject": "https://i.ibb.co/PWzbsqx/math.jpg",
+        "imgTeacher": "https://i.ibb.co/6t6WCM9/p14937.png"
     },
     {
         "id": 4,
-        "name": "Dipankar Halder4",
-        "subjectName": "CSE",
-        "salary": "8000",
-        "Phone": "01700227574",
-        "description": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa.",
-        "imgSubject": "https://i.ibb.co/dGDkr4v/1.jpg",
-        "imgTeacher": "https://i.ibb.co/tY8dmnP/2.jpg"
+        "name": "Hariken",
+        "subjectName": "English",
+        "salary": "6000",
+        "Phone": "01700227555",
+        "description": "Some qualities of a good teacher include skills in communication, listening, collaboration, adaptability, empathy and patience. Other characteristics of effective teaching include an engaging classroom presence, value in real-world learning, exchange of best practices and a lifelong love of learning.",
+        "imgSubject": "https://i.ibb.co/cYcxRnh/download.jpg",
+        "imgTeacher": "https://i.ibb.co/wpDFsch/8b080d4fc2c2818632994ad66e7350de.jpg"
     },
     {
         "id": 5,
-        "name": "Dipankar Halder5",
-        "subjectName": "CSE",
-        "salary": "8000",
-        "Phone": "01700227574",
-        "description": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa.",
-        "imgSubject": "https://i.ibb.co/dGDkr4v/1.jpg",
-        "imgTeacher": "https://i.ibb.co/tY8dmnP/2.jpg"
+        "name": "Holand",
+        "subjectName": "History",
+        "salary": "4000",
+        "Phone": "01700227774",
+        "description": "Some qualities of a good teacher include skills in communication, listening, collaboration, adaptability, empathy and patience. Other characteristics of effective teaching include an engaging classroom presence, value in real-world learning, exchange of best practices and a lifelong love of learning.",
+        "imgSubject": "https://i.ibb.co/WHL27hN/istockphoto-1075599562-612x612.jpg",
+        "imgTeacher": "https://i.ibb.co/gv15LxJ/DMch98-IXk-AAAVou.jpg"
     },
     {
         "id": 6,
-        "name": "Dipankar Halder6",
-        "subjectName": "CSE",
+        "name": "Dhoni",
+        "subjectName": "Bangla",
         "salary": "8000",
         "Phone": "01700227574",
-        "description": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa.",
-        "imgSubject": "https://i.ibb.co/dGDkr4v/1.jpg",
-        "imgTeacher": "https://i.ibb.co/tY8dmnP/2.jpg"
+        "description": "Some qualities of a good teacher include skills in communication, listening, collaboration, adaptability, empathy and patience. Other characteristics of effective teaching include an engaging classroom presence, value in real-world learning, exchange of best practices and a lifelong love of learning.",
+        "imgSubject": "https://i.ibb.co/cYcxRnh/download.jpg",
+        "imgTeacher": "https://i.ibb.co/HxgkZyM/dipu.png"
     }
 ]

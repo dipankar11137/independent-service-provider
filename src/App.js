@@ -31,7 +31,7 @@ function App() {
             <About></About>
           </RequiredAuth>
         }></Route>
-        <Route path='/teachers/:teachersId' element={<Teachers></Teachers>}></Route>
+        <Route path='/teachers' element={<Teachers></Teachers>}></Route>
         <Route path='/login' element={<Login></Login>}></Route>
         <Route path='/register' element={<Register></Register>}></Route>
         <Route path='*' element={<NotFound></NotFound>}></Route>

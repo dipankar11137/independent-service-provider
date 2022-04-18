@@ -1,11 +1,22 @@
-import React from 'react';
-import { useParams } from 'react-router-dom';
+
+import React, { useEffect, useState } from 'react';
+import Teacher from '../Teacher/Teacher';
 
 const Teachers = () => {
-    const { teachersId } = useParams();
+    const [teachers, setTeachers] = useState([]);
+    useEffect(() => {
+        fetch('subjectTeacher.json')
+            .then(res => res.json())
+            .then(data => setTeachers(data))
+    }, [])
     return (
-        <div>
-            <h3>Teachers{teachersId}</h3>
+        <div className='container mt-5'>
+            <div className=' row'>
+
+                {
+                    teachers.map(teacher => <Teacher key={teacher.id} teacher={teacher}></Teacher>)
+                }
+            </div>
         </div>
     );
 };
