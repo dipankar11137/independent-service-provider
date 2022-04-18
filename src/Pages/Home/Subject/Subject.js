@@ -1,12 +1,18 @@
 import React from 'react';
+import { useNavigate } from 'react-router-dom';
 
 const Subject = ({ subject }) => {
-    const { name, subjectName } = subject;
+    const { id, name, subjectName, imgSubject } = subject;
+    const navigate = useNavigate()
+    const navigateToTeacherDetail = id => {
+        navigate(`/teachers/${id}`);
+    }
     return (
-        <div>
-            <h1>This is subject</h1>
-            <h1>{name}</h1>
+        <div className='shadow p-2'>
+            <img className='w-100' src={imgSubject} alt="" />
             <h2>{subjectName}</h2>
+            <h5>Teacher Name : {name}</h5>
+            <button onClick={() => navigateToTeacherDetail(id)} className='btn btn-primary'>Teacher Details</button>
         </div>
     );
 };
